@@ -1,17 +1,59 @@
 body {
   font-family: Arial, sans-serif;
   padding: 10px;
+  color: #333;
+  background-color: #f0f0f0;
 }
 
 .container {
-  width: 200px;
+  width: 300px;
 }
 
 h1 {
-  font-size: 18px;
-  margin-bottom: 10px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 #stats {
   margin-top: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#stats .stat-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+#stats .stat-item p {
+  margin: 0;
+}
+
+#stats .bar {
+  flex-grow: 1;
+  height: 10px;
+  background-color: #4caf50;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.control-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.control-button:hover {
+  background-color: #45a049;
 }

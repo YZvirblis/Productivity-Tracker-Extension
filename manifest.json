@@ -3,7 +3,7 @@
   "name": "Productivity Tracker",
   "version": "1.0",
   "description": "Track time spent on different websites to improve productivity.",
-  "permissions": ["activeTab", "storage", "tabs"],
+  "permissions": ["activeTab", "storage", "tabs", "notifications"],
   "background": {
     "service_worker": "background.js"
   },
